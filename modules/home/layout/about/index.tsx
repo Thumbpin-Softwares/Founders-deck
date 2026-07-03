@@ -4,7 +4,7 @@ import { FaArrowRight } from "react-icons/fa6";
 export default function About(){
     return(
         <main className="bg-white px-6 py-10 md:p-12 flex flex-col gap-4">
-            <div className="bg-neutral-200 py-2 px-6 w-fit rounded-full text-sm sm:text-base">About Us</div>
+            <div className="bg-[#e5eded] py-2 px-6 w-fit rounded-full text-sm sm:text-base">About Us</div>
             <div className="w-full md:w-4xl">
                 <h1 className="text-2xl sm:text-3xl md:text-4xl">SwiftForm is a modern business formation and growth partner built for founders who value speed, clarity, and compliance.</h1>
             </div>
