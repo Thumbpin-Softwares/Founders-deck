@@ -14,17 +14,17 @@ export default function Hero() {
 
       <div className="h-screen px-12 max-w-7xl mx-auto">
         <div className="flex gap-6 items-center justify-center h-[85vh]">
-          <div className="flex flex-col gap-4 items-start justify-start">
-            <div className="bg-[#112522] flex items-center gap-2 justify-center rounded-full p-2">
+          <div className="flex flex-col gap-4 items-start justify-start px-4 sm:px-0">
+            <div className="bg-[#112522] flex items-center gap-2 justify-center rounded-full p-2 mx-auto sm:mx-0">
               <div className="p-2 bg-black rounded-full">
                 <FaStar size={12} className="text-[#9cfd9e]" />
               </div>
               <h1 className="text-sm pr-4">5 Star, Rated by People</h1>
             </div>
-            <h1 className="text-6xl w-xl">
+            <h1 className="text-6xl sm:w-xl w-xs sm:text-left text-center">
               Making Business complexity Simple and actionable
             </h1>
-            <p className="text-[#e2edea] text-md w-xl">
+            <p className="text-[#e2edea] text-md sm:w-xl w-xs sm:text-left text-center">
               SwiftForm delivers expert business consulting that brings
               structure to complexity, sharpens operations, and positions your
               company for sustainable growth.
@@ -34,7 +34,7 @@ export default function Hero() {
                 href=""
                 className="bg-[#9affa1] hover:scale-110 duration-300 py-1 pr-1 pl-6 rounded-full gap-2 flex items-center justify-between"
               >
-                <span className="text-black text-lg">Talk To Me</span>
+                <span className="text-black sm:text-lg text-sm">Talk To Me</span>
                 <div className="bg-black p-2 flex items-center rounded-full">
                   <FaArrowRight className="text-white text-xl" />
                 </div>
@@ -52,7 +52,7 @@ export default function Hero() {
                 <h1 className="uppercase">Our Business Partners</h1>
             </div>
           </div>
-          <div className="flex">
+          <div className="hidden md:flex">
             <BentoGrid />
           </div>
         </div>
