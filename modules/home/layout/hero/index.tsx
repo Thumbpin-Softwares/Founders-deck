@@ -2,6 +2,7 @@ import NotificationStrip from "../../components/notification-strip";
 import Navbar from "@/modules/common/layout/navbar";
 import { FaStar, FaArrowRight } from "react-icons/fa";
 import Link from "next/link";
+import BentoGrid from "../../components/bento-grid";
 
 export default function Hero() {
   return (
@@ -11,8 +12,8 @@ export default function Hero() {
         <Navbar />
       </div>
 
-      <div className="h-screen max-w-6xl mx-auto">
-        <div className="flex gap-6 items-center h-[85vh]">
+      <div className="h-screen px-12 max-w-7xl mx-auto">
+        <div className="flex gap-6 items-center justify-center h-[85vh]">
           <div className="flex flex-col gap-4 items-start justify-start">
             <div className="bg-[#112522] flex items-center gap-2 justify-center rounded-full p-2">
               <div className="p-2 bg-black rounded-full">
@@ -23,7 +24,7 @@ export default function Hero() {
             <h1 className="text-6xl w-xl">
               Making Business complexity Simple and actionable
             </h1>
-            <p className="text-[#e2edea] text-md w-2xl">
+            <p className="text-[#e2edea] text-md w-xl">
               SwiftForm delivers expert business consulting that brings
               structure to complexity, sharpens operations, and positions your
               company for sustainable growth.
@@ -46,8 +47,14 @@ export default function Hero() {
                 <span className="text-[#95aaa6] text-lg">Learn More</span>
               </Link>
             </div>
+
+            <div>
+                <h1 className="uppercase">Our Business Partners</h1>
+            </div>
           </div>
-          <div className="flex"></div>
+          <div className="flex">
+            <BentoGrid />
+          </div>
         </div>
       </div>
     </main>
