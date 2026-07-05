@@ -81,7 +81,7 @@ export default function CaseStudy() {
                   <div className="relative h-full aspect-square shrink-0">
                     <Image
                       src={item.image}
-                      className="rounded-2xl object-cover"
+                      className="rounded-2xl hover:scale-110 duration-300 object-cover"
                       alt="case image"
                       fill
                     />
