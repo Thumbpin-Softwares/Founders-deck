@@ -4,9 +4,10 @@ import Cta from "@/modules/home/layout/cta";
 import CaseStudy from "@/modules/home/layout/case-study";
 import Pricing from "@/modules/home/layout/pricing";
 import Services from "@/modules/home/layout/services";
+import BuildCta from "@/modules/home/layout/build-cta";
 
-export default function Home(){
-  return(
+export default function Home() {
+  return (
     <main>
       <div>
         <Hero />
@@ -25,6 +26,9 @@ export default function Home(){
       </div>
       <div>
         <Services />
+      </div>
+      <div>
+        <BuildCta />
       </div>
     </main>
   );
