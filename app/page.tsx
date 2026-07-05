@@ -3,6 +3,7 @@ import About from "@/modules/home/layout/about";
 import Cta from "@/modules/home/layout/cta";
 import CaseStudy from "@/modules/home/layout/case-study";
 import Pricing from "@/modules/home/layout/pricing";
+import Services from "@/modules/home/layout/services";
 
 export default function Home(){
   return(
@@ -21,6 +22,9 @@ export default function Home(){
       </div>
       <div>
         <Pricing />
+      </div>
+      <div>
+        <Services />
       </div>
     </main>
   );
